@@ -1,0 +1,9 @@
+crear alumno = http://localhost:"puerto"/alumnos/registrar  POST
+consultar alumnos= http://localhost:"puerto"/alumnos/consultar GET
+consultar alumnos por id = http://localhost:"puerto"/alumnos/consultar/id/{id} GET
+consultar alumnos por matricula = http://localhost:"puerto"/alumnos/consultar/matricula/{matricula} GET
+consultar alumnos por nombre = http://localhost:"puerto"/alumnos/consultar/nombre/{nombre} GET
+consultar calificaciones = http://localhost:"puerto"/alumnos/consultar/calificacion GET
+registrar calificaion = http://localhost:"puerto"/calificacion/registrar POST
+editar calificaion = http://localhost:"puerto"/calificacion/editar POST
+eliminar calificacion = http://localhost:"puerto"/calificacion/eliminar DELETE
